@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+  }
+
+li {
+    padding: 5px;
+}
+
+body {
+    font-family: 'Arial';
+    text-align: center;
+}
+
+  #loading {
+    display: none;
+    position: fixed;
+    top: 14vh;
+    left: 0;
+    width: 100vh;
+    height: 89vh;
+    background-color: rgba(255, 255, 255);
+    z-index: 9999;
+  }
+  
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #searchContainer {
+    background-color: lightblue;
+    padding: 1vh;
+    height: 11vh;
+    width: 100vw;
+
+  }
+
+  #displayDiv {
+    background-color: rgb(208, 227, 234);
+    padding: 1vh;
+    width: 100vw;
+    text-align: left;
+    
+  }
